@@ -55,11 +55,6 @@ code {
     url("./images/img1.jpg");
   background-position: center;
   background-position: 50% 50%;
-
-  /* filter: brightness(0.3); */
-  /* background-image: linear-gradient(to right, black 15%, white); */
-  /* background-image: url(("../src/images/img1.jpg")); */
-  /* linear-gradient(-45deg, transparent 10px, #4c71b5 0); */
 }
 
 .bg-image:after {
@@ -69,4 +64,10 @@ code {
     url("./images/img1.jpg");
   background-position: center;
   background-position: 50% 50%;
+  position: fixed;
+  height: calc(100vh_-_81px);
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
