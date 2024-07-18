@@ -64,5 +64,9 @@ code {
 
 .bg-image:after {
   background-size: cover;
-  min-height: calc(100vh_-_81px);
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.7)),
+    url("./images/img1.jpg");
+  background-position: center;
+  background-position: 50% 50%;
 }
