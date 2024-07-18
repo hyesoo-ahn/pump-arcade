@@ -65,7 +65,7 @@ code {
   background-position: center;
   background-position: 50% 50%;
   position: fixed;
-  height: calc(100vh_-_81px);
+  height: calc(100vh - 81px);
 
   -webkit-background-size: cover;
   -moz-background-size: cover;
