@@ -53,13 +53,16 @@ code {
   background-repeat: no-repeat;
   background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.7)),
     url("./images/img1.jpg");
-  background-position: center;
+
   background-position: 50% 50%;
 }
 
 .bg-image:after {
   background-size: cover;
   background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.7)),
+    url("./images/img1.jpg");
+  background-position: 50% 50%;
   position: fixed;
   top: 0;
   height: calc(100vh - 81px);

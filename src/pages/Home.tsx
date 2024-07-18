@@ -9,7 +9,7 @@ const Home = forwardRef((props: any, ref: any) => {
       <div className="mx-auto">
         <div
           className={
-            "min-h-[calc(100vh_-_81px)] mt-[81px] max-md:mt-0 flex items-center justify-center flex-col bg-image bg-fixed"
+            "min-h-[calc(100vh_-_81px)] mt-[81px] max-md:mt-0 flex items-center justify-center flex-col bg-image md:bg-fixed"
           }
         >
           {/* <p className="text-[100px]">👋</p> */}
