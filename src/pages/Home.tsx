@@ -2,7 +2,7 @@ import React, { forwardRef } from "react";
 
 const Home = forwardRef((props: any, ref: any) => {
   return (
-    <div className="bg-gray-100" ref={(homeref) => (ref.current[0] = homeref)}>
+    <div className="bg-gray-100 max-sm:pt-[192px]" ref={(homeref) => (ref.current[0] = homeref)}>
       <div className="mx-auto max-w-[1440px]">
         <div className={"min-h-[calc(100vh_-_81px)] flex items-center justify-center flex-col"}>
           <p className="text-[100px]">👋</p>
