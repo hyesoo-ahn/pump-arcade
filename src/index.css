@@ -60,13 +60,11 @@ code {
 .bg-image:after {
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.7)),
-    url("./images/img1.jpg");
-  background-position: center;
-  background-position: 50% 50%;
   position: fixed;
+  top: 0;
   height: calc(100vh - 81px);
-
+  left: 0;
+  right: 0;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
