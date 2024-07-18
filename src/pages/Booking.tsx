@@ -6,9 +6,11 @@ const Booking = forwardRef((props: any, ref: any) => {
       <div className="mx-auto max-w-[1440px]">
         <div className="min-h-[calc(100vh_-_81px)] flex items-center justify-center flex-col">
           <div>
-            <p className="text-center text-slate-600 font-bold text-4xl">예약 안내</p>
+            <p className="text-center text-slate-600 font-bold text-[40px] black-han-sans-regular">
+              예약 안내
+            </p>
 
-            <div className="grid md:grid-cols-2 max-sm:grid-cols-1 border border-orange-500 rounded-md bg-white mt-10">
+            <div className="grid max-sm:grid-cols-1 grid-cols-2 w-full border border-orange-500 rounded-md bg-white mt-10">
               <div className="lg:p-20 p-10 w-full">
                 <p className="text-2xl font-bold">홍대 1호점</p>
 

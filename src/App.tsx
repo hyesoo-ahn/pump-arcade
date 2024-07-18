@@ -1,11 +1,7 @@
 import React, { useState } from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import { Navigate, Route, Routes } from "react-router-dom";
 import { Layout } from "./pages/Layout";
-import Home from "./pages/Home";
-import Booking from "./pages/Booking";
-import { useThemeObserver } from "./hooks/useObserver";
 
 function App() {
   return (

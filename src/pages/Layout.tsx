@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { NavLink, Outlet } from "react-router-dom";
-import { useThemeObserver } from "../hooks/useObserver";
+import logo from "../images/logo.png";
 import Home from "./Home";
 import Booking from "./Booking";
 import Brand from "./Brand";
@@ -45,10 +44,13 @@ export const Layout = () => {
 
   return (
     <div className="mx-auto  min-h-screen">
-      <div className="z-10 w-full border-b fixed bg-white">
+      <div className="z-10 w-full border-b fixed bg-white top-0">
         <nav className="grid lg:grid-cols-4 max-sm:grid-cols-1 mx-auto max-w-[1440px] h-[81px] max-sm:h-fit">
           <div className="h-full flex items-center max-lg:justify-center max-sm:py-2">
-            <p className="text-2xl font-bold text-orange-600 italic">PUMP ARCADE</p>
+            <div>
+              <img src={logo} className="w-[200px]" />
+            </div>
+            {/* <p className="text-2xl font-bold text-orange-600 italic">PUMP ARCADE</p> */}
           </div>
           <div className="lg:col-span-2 col-span-1 h-full flex max-sm:block max-sm:py-2 items-center justify-center flex-wrap">
             {DETAIL_NAV.map(({ idx, name }) => (

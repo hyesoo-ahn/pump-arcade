@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap");
+/* font */
+.black-han-sans-regular {
+  font-family: "Black Han Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
@@ -30,7 +38,7 @@ code {
 /* iframe */
 #area {
   position: relative;
-  width: 80%;
+  width: 70%;
   padding-bottom: 56.25%;
 }
 
@@ -38,4 +46,16 @@ code {
   position: absolute;
   width: 100%;
   height: 100%;
+}
+
+.bg-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(0, rgba(0, 0, 0, 0.4), 1000px, #efefef 0),
+    url("./images/img1.jpg");
+
+  /* filter: brightness(0.3); */
+  /* background-image: linear-gradient(to right, black 15%, white); */
+  /* background-image: url(("../src/images/img1.jpg")); */
+  /* linear-gradient(-45deg, transparent 10px, #4c71b5 0); */
 }
