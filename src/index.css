@@ -53,6 +53,7 @@ code {
   background-repeat: no-repeat;
   background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.7)),
     url("./images/img1.jpg");
+  background-position: center;
 
   /* filter: brightness(0.3); */
   /* background-image: linear-gradient(to right, black 15%, white); */
