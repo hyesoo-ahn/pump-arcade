@@ -59,3 +59,8 @@ code {
   /* background-image: url(("../src/images/img1.jpg")); */
   /* linear-gradient(-45deg, transparent 10px, #4c71b5 0); */
 }
+
+.bg-image:after {
+  background-size: cover;
+  min-height: calc(100vh_-_81px);
+}
