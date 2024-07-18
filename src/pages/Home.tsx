@@ -1,4 +1,5 @@
 import React, { forwardRef } from "react";
+import img1 from "../images/img1.jpg";
 
 const Home = forwardRef((props: any, ref: any) => {
   return (
@@ -23,8 +24,8 @@ const Home = forwardRef((props: any, ref: any) => {
           </p>
         </div>
 
-        <div className="max-sm:mt-0 mt-[81px] h-[calc(100vh_-_81px)] flex items-center justify-center flex-col">
-          <div id="area">
+        <div className="max-sm:mt-0 mt-40 max-w-[1440px] mx-auto">
+          {/* <div id="area">
             <iframe
               className="z-0"
               id="video"
@@ -37,6 +38,65 @@ const Home = forwardRef((props: any, ref: any) => {
               // referrerpolicy="strict-origin-when-cross-origin"
               // allowfullscreen
             ></iframe>
+          </div> */}
+
+          <div className="grid max-md:grid-cols-1 grid-cols-6 w-full gap-4 h-full my-20">
+            <div className="max-md:col-start-1 max-md:p-4 col-start-2 col-span-2 flex items-center">
+              <img src={img1} className="rounded-md" />
+            </div>
+            <div className="max-md:col-start-1 max-md:p-4  col-start-4 col-span-2 flex items-center">
+              <div className="flex flex-col">
+                <p className="text-3xl font-bold">Choose Your Adventure!</p>
+
+                <p className="mt-8">
+                  Gather your group of 2-5 and give it your all. More than 5? Split up and switch
+                  teams, or mix and match smaller groups while you play.
+                </p>
+
+                <p className="mt-4">
+                  Book online in advance to secure your spot. Walk-ins are welcome, but subject to
+                  availability.
+                </p>
+
+                <button
+                  onClick={() => window.open("https://naver.com", "_blank", "noopener, noreferrer")}
+                  className="bg-naver py-2 px-4 rounded-2xl flex self-start mt-6"
+                >
+                  <p className="text-md font-bold text-white mr-6">네이버 예약</p>
+                  <p className="text-md font-bold text-white">→</p>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div className="grid max-md:grid-cols-1 grid-cols-6 w-full gap-4 h-full">
+            <div className="max-md:col-start-1 max-md:p-4  col-start-2 col-span-2 flex items-center">
+              <div className="flex flex-col">
+                <p className="text-3xl font-bold">Choose Your Adventure!</p>
+
+                <p className="mt-8">
+                  Gather your group of 2-5 and give it your all. More than 5? Split up and switch
+                  teams, or mix and match smaller groups while you play.
+                </p>
+
+                <p className="mt-4">
+                  Book online in advance to secure your spot. Walk-ins are welcome, but subject to
+                  availability.
+                </p>
+
+                <button
+                  onClick={() => window.open("https://naver.com", "_blank", "noopener, noreferrer")}
+                  className="bg-naver py-2 px-4 rounded-2xl flex self-start mt-6"
+                >
+                  <p className="text-md font-bold text-white mr-6">네이버 예약</p>
+                  <p className="text-md font-bold text-white">→</p>
+                </button>
+              </div>
+            </div>
+
+            <div className="max-md:col-start-1 max-md:p-4 col-start-4 col-span-2 flex items-center">
+              <img src={img1} className="rounded-md" />
+            </div>
           </div>
         </div>
 
