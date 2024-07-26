@@ -1,5 +1,5 @@
 import React, { forwardRef } from "react";
-import img1 from "../images/img1.jpg";
+import img1 from "../images/img1.jpeg";
 
 const Home = forwardRef((props: any, ref: any) => {
   return (
@@ -20,7 +20,7 @@ const Home = forwardRef((props: any, ref: any) => {
           </p>
 
           <p className="text-[40px] text-center text-orange-600 font-bold italic black-han-sans-regular">
-            2024.07.19 (금)
+            2024.07.29 (월)
           </p>
         </div>
 

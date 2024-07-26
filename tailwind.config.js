@@ -22,7 +22,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        img1: "url('/src/images/img1.jpg')",
+        img1: "url('/src/images/img1.jpeg')",
       },
     },
   },
